@@ -1,0 +1,25 @@
+{
+  "name": "Cascade Slider",
+  "homepage": "https://github.com/ierhyna/cascade-slider",
+  "authors": [
+    "Irina Sokolovskaja <sokolovskaja.irina@gmail.com>"
+  ],
+  "description": "jQuery plugin to create cascade slider",
+  "main": "cascade-slider.js",
+  "moduleType": [],
+  "keywords": [
+    "jQuery",
+    "slider"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}

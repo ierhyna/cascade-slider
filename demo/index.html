@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Cascade Slider Demo</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <section>
+    <h1>Cascade Slider Demo</h1>
+    <div class="cascade-slider_container" id="cascade-slider">
+      <div class="cascade-slider_slides">
+        <div class="cascade-slider_item">
+          <h3>Pic 1</h3>
+          <img src="1.jpg" alt="">
+        </div>
+        <div class="cascade-slider_item">
+          <h3>Pic 2</h3>
+          <img src="2.jpg" alt="">
+        </div>
+        <div class="cascade-slider_item">
+          <h3>Pic 3</h3>
+          <img src="3.jpg" alt="">
+        </div>
+        <div class="cascade-slider_item">
+          <h3>Pic 4</h3>
+          <img src="4.jpg" alt="">
+        </div>
+        <div class="cascade-slider_item">
+          <h3>Pic 5</h3>
+          <img src="5.jpg" alt="">
+        </div>
+        <div class="cascade-slider_item">
+          <h3>Pic 6</h3>
+          <img src="6.jpg" alt="">
+        </div>
+      </div>
+
+      <ol class="cascade-slider_nav">
+        <li class="cascade-slider_dot cur"></li>
+        <li class="cascade-slider_dot"></li>
+        <li class="cascade-slider_dot"></li>
+        <li class="cascade-slider_dot"></li>
+        <li class="cascade-slider_dot"></li>
+        <li class="cascade-slider_dot"></li>
+      </ol>
+
+      <span class="cascade-slider_arrow cascade-slider_arrow-left" data-action="prev">Prev</span>
+      <span class="cascade-slider_arrow cascade-slider_arrow-right" data-action="next">Next</span>
+    </div>
+  </section>
+
+  <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+  <script src="../cascade-slider.js"></script>
+
+  <script>
+    $('#cascade-slider').cascadeSlider({
+      
+    });
+  </script>
+
+</body>
+</html>
